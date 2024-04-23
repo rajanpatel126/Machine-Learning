@@ -41,3 +41,7 @@ _Dataset Information_
 
 - By calculating multi-colinearity using VIF (Variance Inflation Factor), the threshold for this project is "6".
 - If any column crosses this threshold, I am going to drop those columns from my IVs.
+
+### After VIF, only the dependent columns are going to removed, but those colums which are really impacting the target columns is yet to be indentified.
+
+- So, the Anova test will come in as it is used for Numerical vs Categorical (>=3 categories) test.
