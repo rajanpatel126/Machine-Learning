@@ -37,3 +37,25 @@ _2nd Inference_
 - explode(): Simplyfy the handling of nested tuples, dictonaries, lists by converting a list-like structure into a saperate rows
 
 - Finding which team has played in which edition of FIFA, can be determind using 'Heatmap'. nd Oberservations in the end.
+
+_3rd Inference_
+
+- From the world ranking table, analyzing using the current rank and pervious rank, which team's rank Increased, Decreased or unchanged
+
+- Making 3 list of different categories is not a best way to present the data. So, I opt to make a dataframe of these data and 1st step is to equalling the length of the data.
+
+# ADVANCED EDA
+
+- Observe the data
+
+_1st Inference_
+
+- Probability of a team winning the knowckout matches
+
+- Suppose, for team Argentina, taking the information of total matches played in Knockout matches(Final, Semi-Final, Quarter-Final).
+
+- Grouping the data by round, So I can have the total count of respective matches. Then, calculating the no of matches, where Argentina won those matches.
+
+- Combining these 2 dataframes and finding the probability of winning the mathces.
+
+- A general function to calculate the performance of any team in such matches.
