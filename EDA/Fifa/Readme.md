@@ -59,3 +59,25 @@ _1st Inference_
 - Combining these 2 dataframes and finding the probability of winning the mathces.
 
 - A general function to calculate the performance of any team in such matches.
+
+_2nd Inference_
+
+- Checking the Playing Strategy of a team in knockouts vs non-knockout matches
+
+- home_goal column contains the information of a goal: it's time and player who made the goal
+
+- The data has specific format in the column, there is a pattern in the data, so it will be easier to extract the numbers from the data
+
+- Creating 4 different dataframes, home team & away team in knockouts and non-knockouts.
+
+- 're()': a RegX module. A built in liberary of a python that provides regular expression support.
+
+- Firstly, I need to have the pattern of the string, So copy the string and ask GPT to give the regX pattern.
+
+- For Knockouts; Adding two columns, Home_goals and Away_goals; representing the time of a goal by perticular team
+
+- A perticular team can be home team and away team as well. So, to find the strategy we need to saperate out these two columns and aggregate for a perticular team
+
+- Making a dataframe of Home_goals and Away_goals, filling empty and null values with 0. Then, excluding those rows where goal count is 0.
+
+- Adding another column, Time of Goal by calculating whether the time is <45, 45 < time < 90 or >90. and getting the strategy of knockouts. Same goes for Non-Knockouts.
