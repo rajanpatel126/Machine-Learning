@@ -81,3 +81,11 @@ _2nd Inference_
 - Making a dataframe of Home_goals and Away_goals, filling empty and null values with 0. Then, excluding those rows where goal count is 0.
 
 - Adding another column, Time of Goal by calculating whether the time is <45, 45 < time < 90 or >90. and getting the strategy of knockouts. Same goes for Non-Knockouts.
+
+_3rd Inference_
+
+- Does the Substitution turns out fruitful for a team or not
+
+- 2 ways to make this decision fruitful: Either substitute player score a goal or team score improved after subsitution
+
+- There can be multiple substitution in a single match from a perticular team. So, after each substitution time, the above two conditions need to be checked.
